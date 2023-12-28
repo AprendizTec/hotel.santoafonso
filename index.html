@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Hotel Santo Afonso | Aparecida - SP</title>
+</head>
+<header class="header">
+    <nav>
+        <div class="nav__bar">
+            <div class="logo">
+                <a href="#"><img src="assets/logo.png" alt="logo do hotel santo afonso"></a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn"><i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servico">Serviços</a></li>
+            <li><a href="#conheca">Conheça</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <button class="btn nav__btn">Faça sua Reserva</button>
+    </nav>
+    <div class="section__container header__container" id="home">
+        <p>Simples - Único - Familiar</p>
+        <h1>Você mais próximo da Casa da Mãe <br />Em Nosso <span>Hotel</span>.</h1>
+    </div>
+</header>
+
+<section class="section__container booking__container">
+    <form action="/" class="booking__form">
+        <div class="input__group">
+            <span><i class="ri-calendar-2-fill"></i></span>
+            <div>
+                <label for="check-in">CHECK-IN</label>
+                <input type="text" placeholder="Check In" />
+            </div>
+        </div>
+        <div class="input__group">
+            <span><i class="ri-calendar-2-fill"></i></span>
+            <div>
+                <label for="check-out">CHECK-OUT</label>
+                <input type="text" placeholder="Check Out" />
+            </div>
+        </div>
+        <div class="input__group">
+            <span><i class="ri-user-fill"></i></span>
+            <div>
+                <label for="guest">GUEST</label>
+                <input type="text" placeholder="Guest" />
+            </div>
+            </div>
+            <div class="input__group input__btn">
+                 <button class="btn">CHECK OUT</button>
+        </div>
+    </form>
+</section>
+
+<section class="section__container about__container" id="about">
+    <div class="about__image">
+        <img src="assets/sobre_nos.jpg" alt="sobre"/>
+    </div>
+    <div class="about__content">
+        <p class="section__subheader">SOBRE NÓS</p>
+        <h2 class="section__header">Sua Peregrinação Passa Por Aqui!</h2>
+        <p class="section__description">
+            Um hotel familiar, com acomodações de qualidade. Oferece aos peregrinos uma experiência única ao lado da Casa da Mãe Aparecida. 
+        </p>
+        <div class="about__btn">
+            <button class="btn">Mais</button>
+        </div>
+    </div>
+</section>
+
+<section class="section__container room__container">
+    <p class="section__subheader">NOSSOS QUARTOS</p>
+    <h2 class="sction__header">Momentos Memoráveis Também Acontecem Aqui!</h2>
+    <div class="room__grid">
+        <div class="room__card">
+            <div class="room__card__image">
+                <img src="assets/quartotpl.jpg" alt="quarto">
+                <div class="room__card__icons">
+                    <span><i class="ri-heart-fill"></i></span>
+                    <span><i class="ri-paint-fill"></i></span>
+                    <span><i class="ri-shield-star-line"></i></span>
+                </div>
+            </div>
+            <div class="room__card__datails">
+                <h4>Quartos Familiares</h4>
+                <p>Quartos para Solteiros, Casais ou Triplos, para atender toda a sua família.</p>
+                <h5>A partir de <span>R$125/noite</span></h5>
+                <button class="btn">Reserve Já</button>
+            </div>
+        </div>
+        <div class="room__card">
+            <div class="room__card__image">
+                <img src="assets/cozinha.jpg" alt="cozinha">
+                <div class="room__card__icons">
+                    <span><i class="ri-heart-fill"></i></span>
+                    <span><i class="ri-paint-fill"></i></span>
+                    <span><i class="ri-shield-star-line"></i></span>
+                </div>
+            </div>
+            <div class="room__card__datails">
+                <h4>Cozinha</h4>
+                <p>Todas diárias com café da manhã incluso, com opção de contratar pensão completa ou meia pensão.</p>
+                <h5>A partir de <span>R$125/noite</span></h5>
+                <button class="btn">Reserve Já</button>
+            </div>
+        </div>
+        <div class="room__card">
+            <div class="room__card__image">
+                <img src="assets/recepção.jpg" alt="recepção">
+                <div class="room__card__icons">
+                    <span><i class="ri-heart-fill"></i></span>
+                    <span><i class="ri-paint-fill"></i></span>
+                    <span><i class="ri-shield-star-line"></i></span>
+                </div>
+            </div>
+            <div class="room__card__datails">
+                <h4>Atendimento Especial</h4>
+                <p>Atendimento profissional e humanizado, aliás você faz parte da familia.</p>
+                <h5>A partir de <span>R$125/noite</span></h5>
+                <button class="btn">Reserve Já</button>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section class="service" id="service">
+    <div class="section__container service__container">
+        <div class="service__content">
+            <p class="section__subheader">SERVIÇOS</p>
+            <h2 class="section__header">Aproveite o Melhor de Aparecida.</h2>
+            <ul class="service__list">
+                <li>
+                    <span><i class="ri-user-location-fill"></i></span>Melhor Localização
+                </li>
+                <li>
+                    <span><i class="ri-shield-star-line"></i></span>Segurança e Conforto
+                </li>
+                <li>
+                    <span><i class="ri-24-hours-line"></i></span>Serviço de Quarto 24h
+                </li>
+                <li>
+                    <span><i class="ri-info-i"></i></span>Suporte de Guias de Turismo
+                </li>
+            </ul>
+        </div>
+    </div>
+   </section>
+
+   <section class="section__container banner__container">
+    <div class="banner__content">
+        <div class="banner__card">
+            <h4>25+</h4>
+            <p>Avaliações de Peregrinos</p>
+        </div>
+        <div class="banner__card">
+            <h4>500+</h4>
+            <p>Reservas</p>
+        </div>
+        <div class="banner__card">
+            <h4>800+</h4>
+            <p>Clientes Felizes</p>
+        </div>
+    </div>
+   </section>
+
+   <section class="explore" id="explore">
+    <p class="section__subheader">EXPLORE</p>
+    <h2 class="section__header">Novidades.</h2>
+    <div class="explore__bg">
+        <div class="explore__content">
+            <p class="section__description">25 DEZ 2023</p>
+            <h4>Visite a Fachada Norte com um guia especidalizado da AGCTUR e descubra cada detalhe desse lindo mosaíco</h4>
+            <button class="btn">Continue</button>
+        </div>
+    </div>
+   </section>
+
+   <footer class="footer" id="contact">
+    <div class="section__container footer__container">
+        <div class="footer__col">
+            <div class="logo">
+                <a href="#home"><img src="assets/logo.png" alt="logo"></a>
+            </div>
+            <p class="section__description">
+                Vivencie uma experiência única, de fé e devoção, hopsedando-se ao lado da Casa da Mãe Aparecida. Localizado entre o Santuário Nacional e o Caminho do Rosário, você poderá ter momento únicos e inesquecíveis na presença de Nossa Senhora.
+            </p>
+            <button class="btn">Reserve Agora</button>
+        </div>
+        <div class="footer__col">
+            <h4>Acesso Rápido</h4>
+            <ul class="footer__links">
+                <li><a href="#">Visite Aparecida</a></li>
+                <li><a href="#">Ofertas Especiais</a></li>
+                <li><a href="#">Quartos e Serviços</a></li>
+                <li><a href="#">Reviews e Avaliações dos Hóspedes</a></li>
+                <li><a href="#">Dicas do Guia</a></li>
+            </ul>
+        </div>
+        <div class="footer__col">
+            <h4>Nossos Serviços</h4>
+            <ul class="footer__links">
+                <li><a href="#">Concierge e Assitência</a></li>
+                <li><a href="#">Opções de Check-in</a></li>
+                <li><a href="#">City-Tour para Hóspedes</a></li>
+                <li><a href="#">Transfer Aeroporto</a></li>
+            </ul>
+        </div>
+        <div class="footer__col">
+            <h4>Nosso Contato</h4>
+            <ul class="footer__links">
+               <li><a href="#">recepcao@hotelsantoafonso.com</a></li> 
+            </ul>
+            <div class="footer__socials">
+                <a href="#"><img src="assets/facebook.png" alt="facebook"></a>
+                <a href="#"><img src="assets/instagram.png" alt="instagram"></a>
+                <a href="#"><img src="assets/youtube.png" alt="youtube"></a>
+                <a href="#"><img src="assets/twitter.png" alt="twitter"></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bar">
+        Copyright ® 2023 Pax Dei. All rights reserved. 
+    </div>
+   </footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="main.js"></script>
+
+<body>
+</body>
+</html>
